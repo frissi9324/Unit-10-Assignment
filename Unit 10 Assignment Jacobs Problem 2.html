@@ -1,0 +1,43 @@
+<!--
+CS 81 Unit 10 Assignment
+Priscilla Jacobs
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CS81 Unit 10 Problem 1</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+       $(document).ready(function(){
+       	      $("#btn1").click(function(){
+       	      	   $("p").append("<b>Some new text added</b");
+       	      });
+
+       	      $("#btn2").click(function(){
+       	      	$("ol").append("<li> New list item added</li>");
+       	      });
+
+       });
+    </script>
+    
+</head>
+<body>
+  <p>This is a paragraph</p>
+  <p>This is another paragraph</p>
+
+  <ol>
+  	<li>List Item 1</li>
+  	<li>List Item 2</li>
+  	<li>List Item 3</li>
+  </ol>
+
+  <button id="btn1">Appended Text</button>
+  <button id="btn2">Appended list items</button>
+
+  
+   
+
+  
+</body>
+</html>
